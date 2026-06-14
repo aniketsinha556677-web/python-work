@@ -32,14 +32,3 @@ while True:
 
     # For Loop
     print("\nCounting from 1 to", abs(number))
-
-    for i in range(1, abs(number) + 1):
-        print(i)
-
-    # Loop Control
-    choice = input("\nTry another number? (yes/no): ")
-
-    if choice.lower() == "no":
-        break
-
-print("\nThank you for using Number")
